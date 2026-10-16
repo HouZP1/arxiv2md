@@ -22,7 +22,7 @@ jobs:
           python -m PyInstaller
           --onefile
           --name arxiv_to_markdown
-          arxiv_to_markdown.py
+          arxiv2md.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
